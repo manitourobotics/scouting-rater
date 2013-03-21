@@ -10,7 +10,7 @@ If you reference this report, please note that the scouting system is inherently
 
 ### Requirements
 
-Python2  
+Python2
 Texlive(pdflatex, etc)
 
 ### Installation & Operation 
@@ -30,15 +30,14 @@ It uses a variety of scores to calculate a final score. These are listed below.
 2. The team's Autonomous score. This score is calculated based on how many points they score, how consistent the robot is, and how effective their autonomous mode is. Since the maximum amount of points that can be scored during autonomous is 12 points, scoring a 12 is equivilent to a 10. No robot movement is worth a 1, and then scores are assigned based off these two extremes.
 3. How agile the robot is, how fast is it at turning, how easy is it to travel across the field.
 4. How fast is the robot compared to the others? 
-
-5.~~ Over all the matches, on average, how effective is the robot at crossing the bridge?~~
-6.~~ Over all the matches, on average, how effective is the robot at balancing?~~
-7.~~ Over all the matches, on average, how effective is the robot's scoring method?~~
-8.~~ Over all the matches, on average, how effective is the robot's acquisition system?~~
-9.~~ Over all the matches, on average, how agile is the robot?~~
-10.~~ Over all the matches, on average, how effective is the overall team strategy?~~
-11.~~ Over all the matches, on average, how good is the robot? This number is determined through a scoring algorithm that takes each score into account.~~
-12.~~ This score is comprised of four scores, the agility score is 40%, the bridge score is 10%, the bump score is 10%, and the speed score is 40%.~~
-13.~~ This score is comprised of five scores, the acquisition score is 10%, the assist score is 10%, the strategy is 30%, the dunk score is 20%, and the maneuverability score is 30%.~~
-14.~~ This score is comprised of two scores, the strategy and maneuverability score, both of which make up 50%.~~
-15.~~ This score is comprised of the four section scores, offensive score at 30%, defensive score at 30%, collaboration score at 20%, and the autonomous score at 10%.~~
+~~5. Over all the matches, on average, how effective is the robot at crossing the bridge?~~
+~~6. Over all the matches, on average, how effective is the robot at balancing?~~
+~~7. Over all the matches, on average, how effective is the robot's scoring method?~~
+~~8. Over all the matches, on average, how effective is the robot's acquisition system?~~
+~~9. Over all the matches, on average, how agile is the robot?~~
+~~10. Over all the matches, on average, how effective is the overall team strategy?~~
+~~11. Over all the matches, on average, how good is the robot? This number is determined through a scoring algorithm that takes each score into account.~~
+~~12. This score is comprised of four scores, the agility score is 40%, the bridge score is 10%, the bump score is 10%, and the speed score is 40%.~~
+~~13. This score is comprised of five scores, the acquisition score is 10%, the assist score is 10%, the strategy is 30%, the dunk score is 20%, and the maneuverability score is 30%.~~
+~~14. This score is comprised of two scores, the strategy and maneuverability score, both of which make up 50%.~~
+~~15. This score is comprised of the four section scores, offensive score at 30%, defensive score at 30%, collaboration score at 20%, and the autonomous score at 10%.~~

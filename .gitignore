@@ -1,0 +1,12 @@
+# .ent files are generated when created by the endnotes latex package when compiled
+*.ent
+*.csv
+*.tex
+*.aux
+*.log
+out_file.pdf
+
+
+# Should I have removed these filetypes?
+*.odg
+*.xlr

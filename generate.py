@@ -5,6 +5,9 @@ import csv
 import random
 from random import randint as rand
 
+"""
+Generates random test values for scoring
+"""
 def main():
 
     for number in range(1,4):

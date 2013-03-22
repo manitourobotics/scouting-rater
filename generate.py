@@ -1,16 +1,25 @@
 #!/usr/bin/env python
 
+"""
+Generates a csv file named 'data1.csv' with random values to test scoring.
+"""
+
 import sys
 import csv
 import random
 from random import randint as rand
 
 
-"""
-Generates a csv file named 'foo-data.csv' with random values to test scoring.
-"""
 
 def writer(out_file):
+    """
+    param:
+        out_file:
+            the output filename for the csv
+
+
+    """
+            
     teams = []
     for number in range(1,2):
         for number in range(1,50):
@@ -34,5 +43,5 @@ def writer(out_file):
 
 
 if __name__ == "__main__":
-        out_file = open('foo-data.csv', 'w')
+        out_file = open('data1.csv', 'w')
         writer(out_file)

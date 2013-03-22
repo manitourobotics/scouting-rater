@@ -6,6 +6,9 @@ import random
 from random import randint as rand
 
 
+"""
+Generates a csv file named 'foo-data.csv' with random values to test scoring.
+"""
 
 def writer(out_file):
     teams = []
@@ -30,10 +33,6 @@ def writer(out_file):
         data.writerow(item)
 
 
-"""
-Generates random test values for scoring
-"""
 if __name__ == "__main__":
-    for number in range(1,4):
-        out_file = open('data' + str(number) + '.csv', 'w')
+        out_file = open('foo-data.csv', 'w')
         writer(out_file)
